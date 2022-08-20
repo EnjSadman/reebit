@@ -1,1 +1,6 @@
-/// <reference types="react-scripts" />
+export interface User {
+  name: string,
+  message: string,
+  date: Date,
+  profilePicture: string,
+}

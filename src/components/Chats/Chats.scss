@@ -1,0 +1,28 @@
+.userChats {
+  display: flex;
+  flex-direction: column;
+
+  &__heading {
+    color: cyan;
+    font-weight: 400;
+  }
+}
+
+.user {
+  display: flex;
+
+  cursor: pointer;
+
+  &:hover {
+    background-color: gray;
+  }
+
+  &__input {
+    display: none;
+  }
+
+  &__profilePicture {
+    width: 32px;
+    height: 32px;
+  }
+}
